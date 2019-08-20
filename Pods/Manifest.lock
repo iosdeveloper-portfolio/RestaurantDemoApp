@@ -1,0 +1,95 @@
+PODS:
+  - Alamofire (4.8.2)
+  - DKPhotoGallery (0.0.12):
+    - DKPhotoGallery/Core (= 0.0.12)
+    - DKPhotoGallery/Model (= 0.0.12)
+    - DKPhotoGallery/Preview (= 0.0.12)
+    - DKPhotoGallery/Resource (= 0.0.12)
+    - SDWebImage/GIF
+  - DKPhotoGallery/Core (0.0.12):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Preview
+    - SDWebImage/GIF
+  - DKPhotoGallery/Model (0.0.12):
+    - SDWebImage/GIF
+  - DKPhotoGallery/Preview (0.0.12):
+    - DKPhotoGallery/Model
+    - DKPhotoGallery/Resource
+    - SDWebImage/GIF
+  - DKPhotoGallery/Resource (0.0.12):
+    - SDWebImage/GIF
+  - FLAnimatedImage (1.0.12)
+  - GoogleMaps (3.1.0):
+    - GoogleMaps/Maps (= 3.1.0)
+  - GoogleMaps/Base (3.1.0)
+  - GoogleMaps/Maps (3.1.0):
+    - GoogleMaps/Base
+  - GoogleMapsDirections (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - GooglePlaces (3.1.0):
+    - GoogleMaps/Base (= 3.1.0)
+  - GooglePlacesAPI (1.1.4):
+    - Alamofire (~> 4)
+    - ObjectMapper (~> 3)
+  - HCSStarRatingView (1.5)
+  - IQKeyboardManager (6.3.0)
+  - KSImageCarousel (1.0.5)
+  - NVActivityIndicatorView (4.7.0):
+    - NVActivityIndicatorView/Presenter (= 4.7.0)
+  - NVActivityIndicatorView/Presenter (4.7.0)
+  - ObjectMapper (3.5.0)
+  - SDWebImage (4.4.7):
+    - SDWebImage/Core (= 4.4.7)
+  - SDWebImage/Core (4.4.7)
+  - SDWebImage/GIF (4.4.7):
+    - FLAnimatedImage (~> 1.0)
+    - SDWebImage/Core
+
+DEPENDENCIES:
+  - Alamofire
+  - DKPhotoGallery
+  - GoogleMaps
+  - GoogleMapsDirections
+  - GooglePlaces
+  - GooglePlacesAPI
+  - HCSStarRatingView
+  - IQKeyboardManager
+  - KSImageCarousel
+  - NVActivityIndicatorView
+  - SDWebImage
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - DKPhotoGallery
+    - FLAnimatedImage
+    - GoogleMaps
+    - GoogleMapsDirections
+    - GooglePlaces
+    - GooglePlacesAPI
+    - HCSStarRatingView
+    - IQKeyboardManager
+    - KSImageCarousel
+    - NVActivityIndicatorView
+    - ObjectMapper
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  Alamofire: ae5c501addb7afdbb13687d7f2f722c78734c2d3
+  DKPhotoGallery: 1b4d65d9a485dfdd2002f22daa5b955eafb350ea
+  FLAnimatedImage: 4a0b56255d9b05f18b6dd7ee06871be5d3b89e31
+  GoogleMaps: 5c13302e6fe6bb6e686b267196586b91cd594225
+  GoogleMapsDirections: 4534565f7df3e57cb3e77f68d44d6383bb92194a
+  GooglePlaces: e874db179f2675c4f3eeda0b686b540273a578b0
+  GooglePlacesAPI: 6184a463b58443f1bde3fab6ce725c1c8e540419
+  HCSStarRatingView: 1d18f79654735514cd6f00e6d90e38cb6320dc31
+  IQKeyboardManager: 2ca9d64893247556f53523dcd8d78641f0ba7c23
+  KSImageCarousel: 469bc6d9dc594eed681ee8566199378f8a564fd4
+  NVActivityIndicatorView: b19ddab2576f805cbe0fb2306cba3476e09a1dea
+  ObjectMapper: 078b564ed25c6578b62588e306bf1da3924636d4
+  SDWebImage: c10d14a8883ebd89664f02a422006f66a85c0c5d
+
+PODFILE CHECKSUM: 07b1e7362971330283346270add86c1c84959994
+
+COCOAPODS: 1.7.0
